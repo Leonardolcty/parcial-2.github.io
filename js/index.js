@@ -1,3 +1,17 @@
+
+let productos = [];
+let carrito = [];
+
+
+// 
+fetch("./productos.json")
+.then(response => response.json())
+.then(data => {
+    productos = data.map(p => new Producto(p.id, p.nombre, p.precio, p.url_portada, p.descripcion, p.categoria));
+    Producto.mostrarProductos(productos);
+    cargarCategorias(); // Para filtro
+})
+
 class Producto {
     constructor(id, nombre, precio, url_portada, descripcion, categoria){
         this.id = id;
@@ -64,10 +78,6 @@ class Producto {
     }
 }
 
-let productos = [];
-let carrito = [];
-
-
 // Guardar carrito cada vez que se actualiza
 function actualizarCarrito() {
     const total = carrito.reduce((t, p) => t + p.precio, 0);
@@ -78,14 +88,7 @@ function actualizarCarrito() {
     actualizarModalCarrito();
 }
 
-// 
-fetch("./productos.json")
-.then(response => response.json())
-.then(data => {
-    productos = data.map(p => new Producto(p.id, p.nombre, p.precio, p.url_portada, p.descripcion, p.categoria));
-    Producto.mostrarProductos(productos);
-    cargarCategorias(); // Para filtro
-})
+
 
 function agregarAlCarrito(id) {
     //Agregamos productos al carrito
