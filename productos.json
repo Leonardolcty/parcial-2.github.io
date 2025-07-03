@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nombre": "Redragon Kumara",
+    "precio": 7999,
+    "url_portada": "img/RedragonKumara.jpg",
+    "descripcion": "Teclado mecánico TKL, switches Outemu Blue, iluminación RGB y estructura metálica resistente.",
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 2,
+    "nombre": "Logitech G502 HERO",
+    "precio": 13999,
+    "url_portada": "img/Logitech-g502.jpg",
+    "descripcion": "Mouse gamer con sensor HERO 25K, 11 botones programables y pesos ajustables." ,
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 3,
+    "nombre": "HyperX Cloud II",
+    "precio": 12999,
+    "url_portada": "img/HyperX-cloudii.jpg",
+    "descripcion": "Auriculares con sonido envolvente 7.1 virtual, micrófono con cancelación de ruido y diseño cómodo.",
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 4,
+    "nombre": "SteelSeries QcK XXL",
+    "precio": 2999,
+    "url_portada": "img/SteelSeries QcK XXL.jpg",
+    "descripcion": "Mousepad de gran tamaño con superficie optimizada para precisión de sensores.",
+    "categoria": "Periféricos"
+  },
+  {
+    "id": 5,
+    "nombre": "NVIDIA RTX 4060 Ti",
+    "precio": 249999,
+    "url_portada": "img/NVIDIA RTX 4060 Ti.jpg",
+    "descripcion": "Placa de video con 8 GB GDDR6, DLSS 3.0 y Ray Tracing.",
+    "categoria": "Componentes"
+  },
+  {
+    "id": 6,
+    "nombre": "AMD Ryzen 5 5600X",
+    "precio": 119999,
+    "url_portada": "img/amd-ryzen-5-5600x.jpg",
+    "descripcion": "Procesador 6 núcleos, 12 hilos, excelente para gaming y multitarea.",
+    "categoria": "Componentes"
+  },
+  {
+    "id": 7,
+    "nombre": "Corsair Vengeance ",
+    "precio": 59999,
+    "url_portada": "img/Corsair.jpeg",
+    "descripcion": "Kit de RAM DDR4 con iluminación RGB programable y alto rendimiento. RGB Pro 16 GB (2×8) 3600 MHz",
+    "categoria": "Componentes"
+  },
+  {
+    "id": 8,
+    "nombre": "Kingston NV2",
+    "precio": 54999,
+    "url_portada": "img/SNV2S-1000G-3.jpg",
+    "descripcion": "SSD ultrarrápido para carga inmediata de juegos y sistema.",
+    "categoria": "Componentes"
+  },
+  {
+    "id": 9,
+    "nombre": "Samsung Odyssey ",
+    "precio": 250000,
+    "url_portada": "img/Monitor-Gamer-24-Samsung-Full-Hd-144Hz.jpg",
+    "descripcion": "Monitor Full HD de 24″, 144 Hz, 1 ms, FreeSync para gaming fluido.",
+    "categoria": "Monitores"
+  },
+  {
+    "id": 10,
+    "nombre": "Monitor Gamer Viewsonic",
+    "precio": 280000,
+    "url_portada": "img/Monitor Gamer Viewsonic 180hz 24.jpg",
+    "descripcion": "Monitor para juegos IPS Full HD de27 pulgadas (1920x1080p) con marcos delgados",
+    "categoria": "Monitores"
+  }
+]

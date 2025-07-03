@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación I | Parcial 2 | COLOMBO, LEONARDO |</title>
+    <link rel="shortcut icon" href="favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="/js/index.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li class="fw-bold"><a href="Index.html">Home</a></li>
+                    <li class="fw-bold"> <a href="#Productos">Productos</a></li>
+                    <li class="fw-bold"><a href="#Contacto">Contacto</a></li>
+                </ul>
+                <button type="button" class="btn btn-primary" id="open">🛒<span id="carrito-cantidad-icono">0</span></button>
+            </nav>
+        </div>
+        <div class="hardware"> 
+            <h1>Alpha Hardware</h1>
+            <p>¡Potencia tu PC con lo último en hardware!
+            En <strong class="text-primario">Alpha Hardware</strong>  encontrarás ofertas exclusivas, reseñas expertas y todo lo que necesitas para llevar tu equipo al siguiente nivel.
+            </p>
+            <button  class="conocer"><a href="#Productos">Conocer más</a></button>
+        </div> 
+    </header>
+    </div>
+    <main>
+        <section class="text-center fw-bold intro" id="Productos" > 
+            <p>Potencia tu mundo con hardware de alta calidad: velocidad, rendimiento y durabilidad para llevar tus proyectos al siguiente nivel.</p>
+        </section>
+        <section class="filtros" >
+                <div>
+                    <select id="filtro"></select>
+                </div>
+                <div>
+                    <select id="orden-precio"> 
+                        <option value="todos">Todos los precios</option>
+                        <option value="menor">Menor</option>
+                        <option value="mayor">Mayor</option>
+                    </select>
+                </div>
+        </section >
+        <section class="row mt-3" id="productos">
+            <!-- Aqui los productos -->
+        </section>  
+    </main>    
+    <footer class="container-fluid mt-3" id="Contacto">
+        <div class="footer" >
+            <div>
+                <img class="img" src="img/" alt="Estudiante De Da Vinci" style="width: 250px;">
+                <h2 class="text-center">Datos del alumno</h2>
+                <ul >
+                    <li class="list-group-item text-center">Nombre: Leonardo Colombo</li>
+                    <li class="list-group-item text-center">Instagram: Leonardo_lcty</li>
+                    <li class="list-group-item text-center">Correo: leocolombo8@gmail.com</li>
+                    <li class="list-group-item text-center">Edad: 22 Años</li>
+                </ul>
+    </footer>
+    
+</body>
+    <div id="oferta" class="notificacion">
+        <span id="cerrar-oferta">X</span> Tenemos Procesadores en descuento, ¿Te lo vas a perder?
+    </div>
+    <div id="oferta-dos" class="notificacion-dos">
+        <div>
+            <span id="cerrar-oferta-dos">X<br></span>
+            <img src="img/HyperX-cloudii.jpg" alt="Auriculares HyperX-cloudii">
+            <p>¡HyperX Cloud II en OFERTA!,<br> máxima comodidad y micrófono pro. ¡Llévatelos antes de que vuelen!”</p>
+        </div>
+    </div>
+</html>
